@@ -6,6 +6,9 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\" />
+    <Folder Include="Views\Home\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -13,4 +16,13 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Views\Home\index.html" />
+    <None Remove="Views\Home\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Shared\_ViewImports.cshtml" />
+    <Content Remove="Views\Home\_Layout.cshtml" />
+    <Content Remove="Views\Shared\_Layout.cshtml" />
+  </ItemGroup>
 </Project>
