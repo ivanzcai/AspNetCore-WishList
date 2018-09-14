@@ -9,6 +9,8 @@
     <Folder Include="Views\Home\" />
     <Folder Include="Views\Shared\" />
     <Folder Include="Controllers\" />
+    <Folder Include="Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
   <ItemGroup>
